@@ -287,9 +287,9 @@ Uma especialista em consultoria e tecnologias, a Keyrus cria alavancas que geram
 		 <div class="touch-top">
 			 <div class="col-md-8 touch-left">
          <form action="https://formspree.io/bitmarques@gmail.com" method="POST">
-					<input type="text" name="name" value="Nome" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nome';}" />
-					<input type="text" name="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" />
-					<textarea name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensagem';}"></textarea>
+					<input type="text" name="name" placeholder="Seu nome..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Seu nome...';}" required />
+					<input type="text" name="email" placeholder="Seu e-mail..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Seu e-mail...';}" required />
+					<textarea name="message" placeholder="Sua mensagem..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Sua mensagem...';}" required></textarea>
           <input type="hidden" name="_subject" value="Nova mensagem de negocio!" />
           <input type="hidden" name="_language" value="pt" />
           <input type="text" name="_gotcha" style="display:none">
