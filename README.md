@@ -1,3 +1,3 @@
 # mywebsite
 
-Acesse em: http://perfializa.com.br
+Acesse em: http://perfializa.me
